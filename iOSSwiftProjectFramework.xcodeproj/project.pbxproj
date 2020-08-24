@@ -26,6 +26,7 @@
 		713CF8FC24DD269E00E25C83 /* GGNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CF8F824DD269D00E25C83 /* GGNotification.swift */; };
 		713CF8FE24DD2D3500E25C83 /* FeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CF8FD24DD2D3500E25C83 /* FeatureViewController.swift */; };
 		713CF90024DD3BD500E25C83 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CF8FF24DD3BD500E25C83 /* OneViewController.swift */; };
+		71CDDF9B24F3BECA00366B6D /* GGHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDDF9A24F3BEC900366B6D /* GGHeader.swift */; };
 		E930C06E0DA5E64AE903CD9B /* Pods_iOSSwiftProjectFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2451895F7B88950D00063474 /* Pods_iOSSwiftProjectFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		713CF8F824DD269D00E25C83 /* GGNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGNotification.swift; sourceTree = "<group>"; };
 		713CF8FD24DD2D3500E25C83 /* FeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureViewController.swift; sourceTree = "<group>"; };
 		713CF8FF24DD3BD500E25C83 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		71CDDF9A24F3BEC900366B6D /* GGHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGHeader.swift; sourceTree = "<group>"; };
 		A4685E9972EB37D0292A33EF /* Pods-iOSSwiftProjectFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSwiftProjectFramework.release.xcconfig"; path = "Target Support Files/Pods-iOSSwiftProjectFramework/Pods-iOSSwiftProjectFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -271,6 +273,7 @@
 		713CF8F424DD266E00E25C83 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				71CDDF9A24F3BEC900366B6D /* GGHeader.swift */,
 				713CF8F724DD269D00E25C83 /* GGConst.swift */,
 				713CF8F624DD269D00E25C83 /* GGEnum.swift */,
 				713CF8F524DD269D00E25C83 /* GGGlobalVariables.swift */,
@@ -398,6 +401,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				713CF90024DD3BD500E25C83 /* OneViewController.swift in Sources */,
+				71CDDF9B24F3BECA00366B6D /* GGHeader.swift in Sources */,
 				713CF8F224DD265100E25C83 /* BaseModel.swift in Sources */,
 				713CF8E024DD264B00E25C83 /* UIButton+ImageTitleSpacing.swift in Sources */,
 				713CF8FE24DD2D3500E25C83 /* FeatureViewController.swift in Sources */,
