@@ -15,6 +15,12 @@ let API_URL = ""
 
 ///当前设备是否是iPhoneX
 let isPhoneX = (SCREEN_HEIGHT == 375.0 || SCREEN_HEIGHT == 812.0)
+func isPhoneX() -> Bool {
+    if @available(iOS 11.0, *) {
+        return UIApplication.shared.windows.first!.safeAreaInsets.bottom > 0
+    }
+    return false
+}
 
 // 尺寸宏
 let STATUSBAR_HEIGHT: CGFloat = 20.0
